@@ -1,0 +1,138 @@
+.w{
+height: auto;
+width: 700px;
+border: 1px solid blue;
+margin: auto;
+}
+.row1{
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid red;
+}
+.r1col1{
+    height: 100px;
+    width: 20%;
+    border-right: 1px solid black;
+    float: left;
+    background-image: url(image/logo.jpg);
+    background-size: 100% 100%;
+}
+.r1co2{
+    height: 100px;
+    width: 79%;
+    float:left;
+    background-image: url(image/logo5.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.row2{
+    height: 100px;
+    width: 100%;
+    border-bottom:1px solid black;
+}
+.r2col1{
+    height: 100px;
+    width: 99.8px;
+    border-right: 1px solid green;
+    float: left;
+    text-align: center;
+    
+}
+.r2col7{
+    border-right: none;
+}
+
+/* .r2col2{
+    height: 100px;
+    width: 99.8px;
+    border-right: 1px solid green;
+    float: left;
+}
+.r2col3{
+    height: 100px;
+    width: 99.8px;
+    border-right: 1px solid green;
+    float: left;
+}
+.r2col4{
+    height: 100px;
+    width: 99.8px;
+    border-right: 1px solid green;
+    float: left;
+}
+.r2col5{
+    height: 100px;
+    width: 99.8px;
+    border-right: 1px solid green;
+    float: left;
+}
+.r2col6{
+    height: 100px;
+    width: 99.8px;
+    border-right: 1px solid green;
+    float: left;
+}
+.r2col7{
+    height: 100px;
+    width: 99.8px;
+    border: 0px solid brown;
+    
+} */
+.r2col2{
+    background-color: black;
+}
+.r2col4{
+    background-color: black;
+}
+.r2col6{
+    background-color: black;
+}
+.row3{
+    height: 150px;
+    width: 100%;
+    border-bottom: 1px solid red;
+}
+.r3col1{
+    height: 150px;
+    width: 99%;
+    background-image: url(image/bannar.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.row4{
+    height: 400px;
+    width: 100%;
+    border-bottom: 1px solid blue;
+
+}
+.r4col1{
+    height: 399px;
+    width: 150px;
+    border-right: 1px solid black;
+    float: left;
+    background-color: brown;
+   
+}
+.r4col2{
+    height: 400px;
+    width: 549px;
+    float: left;
+    background-image: url(image/logo4.jpg);
+    background-repeat: no-repeat;
+    background-size: 99% 99%;
+}
+   
+
+.row5{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid red;
+}
+.r5col1{
+    height: 60px;
+    width: 99.8%;
+    float: left;
+    text-align: center;
+}

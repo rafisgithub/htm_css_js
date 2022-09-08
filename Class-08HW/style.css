@@ -1,0 +1,207 @@
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 24.99;}
+.col-4{width: 33.32%;}
+.col-5{width: 41.65%;}
+.col-6{width: 49.98%;}
+.col-7{width: 58.31%;}
+.col-8{width:66.64%;}
+.col-9{width:74.97%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.63%;}
+.col-12{width: 100%;}
+/* .wrapper{
+    display: table;
+    border: 2px solid lightblue;
+    margin: 10px;
+    padding: 10px;
+} */
+.row{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+   
+}
+.col{
+    display: table-cell;
+     border: 1px solid lightskyblue;
+ 
+
+}
+.row-1-h{
+     height:150px;
+}
+.row-2-h{
+    height: 80px;
+}
+.row-3-h{
+    height: 150px;
+}
+.row-4-h{
+    height: 150px;
+}
+.row-5-h{
+    height: 400px;
+}
+.row-6-h{
+    height: 50px;
+}
+img{
+    height: 150px;
+    width: 100%;
+    display: block;
+    /* display: none; */
+}
+.r5c2{
+    height: 400px;
+    width: 100%;
+}
+/* for mobile */
+@media (min-width:320px) and (max-width:480px){
+.col-s-1{width: 8.33%;}
+.col-s-2{width: 16.66%;}
+.col-s-3{width: 24.99;}
+.col-s-4{width: 33.32%;}
+.col-s-5{width: 41.65%;}
+.col-s-6{width: 49.98%;}
+.col-s-7{width: 58.31%;}
+.col-s-8{width:66.64%;}
+.col-s-9{width:74.97%;}
+.col-s-10{width: 83.33%;}
+.col-s-11{width: 91.63%;}
+.col-s-12{width: 100%;}
+.d-none{
+    display: none;
+}
+.row-2-h .col-s-12{
+    background-color: green;
+}
+.row-3-h .col-3{
+    background-color: black;
+}
+.row-4-h .col-4{
+    background-color: lightsalmon;
+}
+.row-6-h .col-12{
+   background-color: black;
+}
+.row-5-h .col-11{
+    background-image: url(image/mobile.jpg);
+}
+
+}
+/* for tab */
+@media (min-width:481px) and (max-width:767px){
+    .row-2-h .col-2{
+        background-color: gray;
+    }
+    .row-3-h .col-3{
+        background-image: url(image/tab2.jpg);
+        background-repeat: no-repeat;
+        height: 150px;
+        width: 100%;
+    }
+    .row-4-h .col-4{
+        background-image: url(image/tab1.jpg);
+        height: 150px;
+        width: 100%;
+    }
+    .row-5-h .col-11{
+        background-image: url(image/tab.jpg);
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 100%;
+       
+    }
+    .row-6-h .col-12{
+        background-color: green;
+    }
+   
+    .d-none{
+        display: none;
+    }
+    
+   
+}
+
+/* For laptop or Desktop */
+@media (min-width:768px) and (max-width:991px){
+    .row-5-h .col-11{
+        background-image: url(image/lap\ and\ desk.jpg);
+        height: 400px;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+    .d-none{
+        display: none;
+    }
+    .row-2-h .col-s-12{
+        background-color: lightslategray;
+
+    }
+    .row-3-h .col-3{
+        background-image: url(image/lap1.jpg);
+        background-repeat: no-repeat;
+       height: 150px;
+        width: 100%;
+    }
+
+   .row-4-h .col-4{
+    background-image: url(image/lap2.jpg);
+    background-repeat: no-repeat;
+   }
+    
+
+}
+/* for projector */
+@media (min-width:992px) and (max-width:1200px){
+    .row-5-h .col-11{
+        background-image: url(image/projector.jpg);
+        /* background-repeat: no-repeat; */
+        height: 400px;
+        width: 100%;
+    }
+    .d-none{
+        display: none;
+    }
+    .row-2-h .col-s-12{
+        background-color: skyblue;
+    }
+    .row-3-h .col-3{
+        background-image: url(image/proj2.jpg);
+        background-repeat: no-repeat;
+        height: 150px;
+        width: 100%;
+    }
+    .row-4-h .col-4{
+        background-image: url(image/proj4.jpg);
+        background-repeat: no-repeat;
+        height: 150px;
+        width: 100%;
+    }
+    
+}
+.row-2-h .col-2{
+    background-color: blue;
+}
+.row-3-h .col-3{
+    background-color: black;
+}
+.row-4-h .col-4{
+    background-color: orange;
+}
+.row-5-h .col-1{
+    background-color: darkblue;
+}
+@media (min-width:1201px) and (max-width:9900px){
+    .row-5-h .col-11{
+        background-image: url(image/tech.jpg);
+        /* background-repeat: no-repeat; */
+        height: 400px;
+        width: 100%;
+    }
+    .row-6-h .col-12{
+        text-align: center;
+       background-color:lightpink;
+    }
+}

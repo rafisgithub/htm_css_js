@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /* Google font er css */
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/banner.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.menu ul li{
+    padding-right: 25px;
+}
+.menu ul li a{
+    color: #fff;
+}
+.ps-10{
+    padding-left:6rem;
+}
+.pe-10{
+    padding-right: 6rem;
+}
+.logo img{
+    width: 150px;
+}
+.menu ul li{
+    padding-right: 25px;
+}
+.menu ul li a{
+    color: #fff;
+}
+.active, .menu ul li:hover a{
+    color: red!important;
+}
+.menu ul li::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    margin: auto;
+    background-color: red;
+    display: block;
+    transition: 0.5s;
+}
+.menu ul li:hover:after{
+    width: 70%;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: relative;
+    top: 100%;
+    left: 5%;
+}
+.text-box h1{
+    font-size: 62px;
+    font-weight: 700;
+}
+.text-box p{
+    font-size: 14px;
+    margin: 0px 10px;
+}
+.text-box a{
+    color: #fff;
+    padding: 12px 34px;
+}
+.hero-btn{
+    border-radius: 0px!important;
+    border-color: #fff;
+    transition: 1s;
+
+}
+.hero-btn:hover{
+    border: 1px solid  #fff;
+    background-color: cornflowerblue;
+    color: #fff;
+   
+}
+@media(min-width:320px) and (max-width:480px){
+    
+}
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .navbar{
+        position: relative;
+        left: 190px;
+        bottom: 40px;
+        
+    }
+    .header{
+        height: 500px;
+    }
+    .header img{
+        position: relative;
+        right: 70px;
+        height: 40px;
+        width: 70px;
+    }
+    .header .Rafi h1{
+        font-size: 20px;
+       
+    }
+    .Rafi a,p,h1{
+       position: relative;
+       bottom: 400px;
+       text-align: center;
+    }
+    
+  }

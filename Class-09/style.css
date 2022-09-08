@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+   background-image: url(image/laptop.jpg);
+   /* background-attachment: fixed; */
+   background-size: cover;
+}
+.menu-bar{
+    background-color: lightslategray;
+    text-align: center;
+}
+.menu-bar ul{
+    list-style: none;
+    display: inline-flex;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+   columns: #fff;
+   text-decoration: none;
+}
+ 
+.active, .menu-bar ul li:hover{
+    background-color: green;
+    border-radius: 8px;
+}
+.menu-bar{
+    margin-right: 5px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: -48px;
+    background-color: aqua;
+    border-radius: 50px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 2px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid red;
+    text-align: center;
+  
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:hover{
+    background-color: lightcoral
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:hover a{
+    color:black;
+}
+.menu-bar li{
+ text-transform: capitalize;
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: -30px;
+    background-color: aqua;
+
+}
+.sub-menu-2 ul li:hover a{
+    color: #fff;
+}

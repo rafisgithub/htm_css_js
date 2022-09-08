@@ -1,0 +1,173 @@
+.w{
+    height: auto;
+    width: 800px;
+    border: 1px solid blue;
+    margin: auto;
+}
+.row1{
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid red;
+  
+}
+.r1col1{
+    height: 100px ;
+    width: 25%;
+    border-right: 1px solid black;
+    float: left;
+}
+.r1col2{
+    height: 100px;
+    width: 74.8%;
+    float: left;
+}
+.row2{
+    height: 150px;
+    width: 100%;
+    border-bottom: 1px solid green;
+}
+.r2col1{
+    height: 150px;
+    width: 33%;
+    border-right: 1px solid blue;
+    float: left;
+}
+/* .r2col2{
+    height: 150px;
+    width: 33%;
+    border-right: 1px solid blue;
+    float: left;
+}
+.r2col3{
+    height: 150px;
+    width: 33%;
+    float: left;
+}
+ */
+ .r2col3{
+    border-right: none;
+ }
+ .r2col2{
+    background-color: brown;
+    float: left;
+    position: fixed;
+    left: 33%;
+    width: 33%;
+ }
+ .row3{
+    height: 150px;
+    width:100%;
+    border-bottom: 1px solid green;
+ }
+ .r3col1{
+    height: 150px;
+    width: 100%;
+    float: left;
+ }
+.row4{
+    height: 800px;
+    width: 100%;
+    border-bottom: 1px solid red;
+}
+.r4col1{
+    height: 800px;
+    width: 22%;
+    border-right: 1px solid black;
+    float: left;
+}
+.r4col2{
+    height: 800px;
+    width: 77.5%;
+    border-right: 1px solid black;
+    float: left;
+    position: relative;
+}
+.row5{
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+.r5col1{
+ height: 100px;
+ width: 99.8%;
+ float: left;
+}
+.content{
+    height: 300px;
+    position: relative;
+}
+.groove {
+    border-style: groove;
+    border-radius: 0px 0px 25px 25px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    margin: 50px;
+    padding: 50px;
+    border-top: none;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}
+.outset{
+    border-style: inset;
+
+}
+.inset{
+    border-style: inset;
+}
+.mix{
+    border-style: solid dashed double dotted;
+}
+.ridge{
+    border-style: ridge;
+}
+
+/* national flag */
+
+.rec{
+    height: 200px;
+    width: 400px;
+    background-color: green;
+    position: relative;
+    margin: auto;
+
+}
+.cil{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border-radius: 50%;
+    margin: auto;
+    position:absolute;
+    margin-top: 22px;
+    margin-left: 100px;
+   
+}
+.bamboo{
+    height: 800px;
+    width:17px;
+    background-color: green;
+    position: absolute;
+    top: 0px;
+    left: 535px;
+  
+
+}
+.a{
+    height: 5px;
+    width: 20px;
+    background-color: gray;
+    position: absolute;
+    top: 47px;
+    left: 550px;
+}
+.b{
+    height: 5px;
+    width: 20px;
+    background-color: gray;
+    position: absolute;
+    top: 159px;
+    left: 550px;
+}

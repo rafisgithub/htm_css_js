@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+   background-image: url(image/webdesin.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.menu-bar{
+    background-color: black;
+    text-align: center;
+}
+.menu-bar ul{
+    list-style: none;
+    display: inline-flex;
+    
+}
+.menu-bar ul li{
+    margin: 10px;
+    padding: 10px;
+  
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active-home{
+    background-color: blue;
+    border-radius: 5px;
+}
+.active-home:hover{
+   background-color: green;
+}
+.About:hover{
+    background-color: aqua;
+}
+.services:hover{
+    background-color: red;
+}
+.Gallary:hover{
+     background-color: crimson;
+}
+.Contacts:hover{
+    background-color: goldenrod;
+}
+.Clients:hover{
+    background-color: tomato;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position:absolute;
+    margin-top: 9px;
+    margin-left: -97px ;
+    background-color: green;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    position: absolute;
+    margin: 1px 0px 0px 50px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    background-color: blueviolet;
+    margin: 3px;
+    border-radius: 5px;
+    width: 140px;
+    height: auto;
+}
+.sub-1ER-sub-menu-1{
+    display: none;
+}
+.sub-1ER-sub-menu-1 ul li:hover{
+    display: block;
+}
+.Web-design:hover .sub-1ER-sub-menu-1{
+    display: block;
+    position: absolute;
+    margin: 8px 0px 0px 80px ;
+    border-radius: 20px;
+}
+.menu-bar ul li:hover .Web-design:hover{
+    background-color: blue ;
+}
+.menu-bar .Web-design:hover .sub-1ER-sub-menu-1 ul li{
+    background-color: black;
+    width: 60px;
+    margin: 5px;
+}
+
+.Web-Development .sub-list-box-4{
+    display: none;
+}
+.menu-bar .Web-Development:hover .sub-list-box-4{
+    display: block;
+    position: absolute;
+    margin: 5px 80px 0px 80px;
+    border-radius: 10px;
+}
+.menu-bar ul li:hover.Web-Development:hover .sub-list-box-4 ul li{
+   background-color: black;
+}
+.menu-bar ul li:hover .Web-design:hover ul html{
+    background-color: lightslategray;
+}
+.menu-bar .App-development .sun-3erlist-box{
+ display: none;
+}
+.menu-bar .App-development:hover .sun-3erlist-box{
+   display: block;
+   position: absolute;
+   margin-left: 80px;
+   margin-top: -30px;
+}
+.menu-bar .App-development:hover .sun-3erlist-box ul li{
+    width: 100px;
+    background-color: lightskyblue;
+}
+.menu-bar ul li:hover .App-development:hover{
+    background-color: lightslategray;
+}
+.menu-bar ul li:hover .Web-Development:hover{
+    background-color: crimson;
+}
+.menu-bar ul li:hover .Web-design:hover ul li{
+    background-color: darkgreen;
+}
+.menu-bar ul li:hover .Web-design:hover ul li{
+    width: 100px;
+}

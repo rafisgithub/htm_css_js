@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+  background-color: white;
+}
+.menu ul{
+    list-style: none;
+    display: inline-flex;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:blue;
+}
+.menu ul li{
+   margin: 10px;
+   /* background-color: blue; */
+   height: 30px;
+}
+.menu{
+    background-color: rgb(199, 209, 218);
+    height: 48px;
+    width: 100%;
+}
+.menu ul li:hover{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+.input{
+    position:absolute;
+    top: 340px;
+    left: 550px;
+
+}
+.input{
+    height: 40px;
+    width: 500px;
+    border-radius: 50px;
+}
+.searceicon{
+   height: 20px;
+   position:absolute;
+   top: 350px;
+   left: 560px;
+}
+.logo{
+    height: 150px;
+    width: 250px;
+    position: absolute;
+    top: 200px;
+    left: 650px;
+    
+}
+.appsicon{
+  position: absolute;
+  top: 90px;
+  left: 1400px;
+}
+.appsicon img{
+     height: 22px;
+     position: absolute;
+     top: -5px;
+
+
+}
+.appsicon .Gmail{
+    position:relative;
+    top: -5px;
+    left: -20px;
+}
+.appsicon .Image{
+    position: relative;
+    top: -5px;
+    left: -10px;
+
+    
+}
+.microphone{
+    height: 20px;
+    position: absolute;
+    top: 350px;
+    left: 1018px;
+}

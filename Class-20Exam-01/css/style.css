@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.c-mp-0{
+    margin: 0px;
+    padding: 0px;
+}
+/* css for secton one */
+.header{
+    min-height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(23, 34, 77, 0.7),rgba(87, 94, 122, 0.7)),url(../image/dubai.jpg);
+    ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.header li a{
+    color: #fff;
+}
+.active{
+    color: blue!important;
+}
+.header h3{
+    position: relative;
+    top: 30px;
+    left: 50px;
+    color: #fff;
+}
+.header .navbar{
+ position: relative;
+ top: 20px;
+ left: 500px;
+
+}
+.h1andp{
+    position: relative;
+    color: #fff;
+    top: 260px;
+}
+/* CSS for sectione two services */
+.service{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(57, 57, 172);
+}
+.service i{
+    font-size: 30px;
+}
+.service h3,i,p,h4{
+    color: #fff!important;
+}
+.service h3{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.webv{
+    position: relative;
+    bottom: 40px;
+}
+/* CSSe for section three recent work */
+.recentwork .ps-10{
+    position: relative;
+    left: 80px;
+}
+.recentwork .pe-10{
+    position: relative;
+    right: 50px;
+}
+.recentwork img:hover{
+    height: 200px;
+    width: 250px;
+    transition: 3s;
+    transform: skew(45deg);
+ 
+}
+/* CSS for Section four */
+.sectionFour{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(190, 175, 175);
+}
+.sectionFour span ,h3{
+    color:black;
+    
+    position: relative;
+    top: 19px;
+}
+.sectionFour h1{
+    position: relative;
+    bottom: 40px;
+    font-size: 70px;
+}
+/* CSS for  section five*/
+.sectionfive{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(34, 23, 23);
+
+}
+
+/* CSS for last */
+.footer{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+.footer ul li{
+    list-style: none;
+    float: left;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+.footer ul{
+    position: relative;
+    left: 300px;
+}
+
+
+@media(max-width:700){
+    .header{
+        height: 50vh;
+    }
+}

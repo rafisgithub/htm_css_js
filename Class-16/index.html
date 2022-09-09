@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1 id="demo">Rafi Ahmed</h1>
+    <h6 id="demo1"></h6>
+    <form action="">
+        <input type="text" id="FName"> <br><br>
+        <input type="text" id="LName"> <br><br>
+        <input onclick="fulName()" value="submit" > <br><br>
+    </form>
+
+   <script>
+
+     var a=document.getElementById('demo').innerHTML='Hello JS';
+     console.log(a);
+     document.write(a);
+     alert("Hello my name is Rafi");
+
+     function fulName(){
+      
+      var FastName=document.getElementById('FName').value;
+      var LastName=document.getElementById('LName').value;
+      document.getElementById('demo1').innerHTML=FastName+' '+LastName;
+   
+     }
+     
+   </script> -->
+      <h1 id="demo"></h1>
+      <form action="">
+        <input type="text" id="FName"><br><br>
+        <input type="text" id="LName"><br><br>
+        <input onclick="FulName()" value="submit"><br>
+      </form>
+      <script>
+        function FulName(){
+            var x=document.getElementById('FName').value;
+            var y=document.getElementById('LName').value;
+            document.getElementById('demo').innerHTML=x+' '+y;
+        }
+      </script>
+</body>
+</html>

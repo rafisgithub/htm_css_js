@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+        font-family: 'Poppins', sans-serif;
+}
+.top{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(54, 54, 142);
+   
+}
+.top i{
+    color: mediumvioletred;
+    font-size: 20px;
+   
+}
+.top a{
+    padding: 15px;
+    padding-top: 15px;
+    text-decoration: none;
+    color: white;
+}
+.top a , p ,i{
+    float: left;
+}
+.socialNetwork i{
+    padding:20px 0px 0px 700px;
+    
+   
+}
+.mainnavber{
+    padding-left: 390px;
+    
+}
+.navber .home,h2{
+    color: mediumvioletred!important;
+}
+.backimg{
+    background-image: url(../image/Amabwithcha.jpg);
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backimg .text-center{
+   padding-top: 110px;
+   padding-left: 600px;
+}
+.backimg .text-center button{
+    background-color: rgb(50, 50, 130);
+    color: white;
+    font-size: small;
+    width: 100px;
+}
+.c-pm-0{
+   padding: 0px;
+   margin: 0px;
+}
+.WelcomeTotpper h2 ,p {
+   position: relative;
+   bottom: 20px;
+}
+.WelcomeTotpper h1{
+    color: mediumvioletred;
+}
+.checbox i{
+    color: mediumvioletred;
+}
+.fa-circle-check p{
+    padding-top: 25px;
+    padding-left: 15px;
+}
+.WelcomeTotpper img{
+    height: 350px;
+    width: 100%;
+}
+.pl-10{
+    padding-left: 20px;
+}
+.WelcomeTotpper .fa-solid{
+    color: mediumvioletred;
+}
+.OurServices h2,p{
+ position: relative;
+ bottom: 20px;
+}
+.OurServices p{
+    position: relative;
+    bottom: 68px;
+}
+h1,h2,h3{
+    color: mediumvioletred;
+    font-weight: 500px;
+}
+.card-content{
+    height: 240px;
+    width: 90%;
+    padding: 20px;
+}
+.ourServices i{
+    color: mediumvioletred;
+    font-size: 30px;
+    padding-top: 0px;
+}
+.ourServices h4 ,p{
+    padding-top: 15px;
+}
+
+.Client h2 ,p{
+    position: relative;
+    bottom: 30px;
+}.OurPortfolio h3{
+    position: relative;
+    bottom: 20px;
+}
+.OurPortfolio p{
+    color: #fff;
+}
+.OurPortfolio{
+    height: 700px;
+   background-color: rgb(33, 38, 96);
+}
+.testimonials h3{
+    position: relative;
+    bottom: 20px;
+}
+.dotdot .dotsize{
+   font-size: 300px;
+}
+.dotkarsize{
+    font-size: 100px;
+    position: relative;
+    bottom: 70px;
+    color: gray;
+}
+.dotcolor{
+    color: mediumvioletred;
+}
+.GetOUrSercices{
+    height: 150px;
+    background-color: rgb(13, 13, 97);
+}
+.GetOUrSercices h5 ,p{
+    padding-left: 120px;
+}
+.GetOUrSercices p{
+    text-align: justify;
+}
+.GetOUrSercices button{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 100px;
+    position: relative;
+    left: 1000px;
+    bottom: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.ourTeam h2{
+   position: relative;
+   bottom: 30px;
+}
+.ourTeam h4,h6{
+    text-align: center;
+    font-weight: 700;
+    color: mediumvioletred;
+}
+.ourTeam ul li{
+    list-style: none;
+     float: left;
+    padding: 8px;
+    padding-left: 30px;
+    border: 1px solid rebeccapurple;
+   
+}
+.contactUs h4{
+    color: mediumvioletred;
+    font-weight: 500;
+}
+.contactUs h3{
+    position: relative;
+    bottom: 25px;
+
+}
+.contactUs h5{
+    position: relative;
+    font-size: 15px;
+     
+}
+.contactUs p{
+   position: relative;
+   right: 120px;
+  
+}
+.contactUs i{
+    font-size: 20px;
+}
+.contactUs .btn{
+    position: relative;
+    left: 600px;
+    bottom: 20px;
+    background-color: mediumvioletred;
+    color: #fff;
+}
+.lactionmap{
+    width: 100%;
+}
+.Footer{
+    position: relative;
+    top: 40px;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(55, 55, 114);
+}
+.Footer h5{
+    position: relative;
+    bottom: 35px;
+    color: #fff;
+    font-size: 15px;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+   
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .top{
+        height: 200px;
+        position: sticky;
+    }
+    .socialNetwork i{
+        position: relative;
+        right: 600px;
+    }
+  }
+
+ 
